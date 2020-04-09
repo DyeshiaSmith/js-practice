@@ -59,6 +59,5 @@ console.log(me.somethingElse.again); -undefined/chaining
 console.log(undefined.again); -
 
 //console.log(console);
-
-
+//typeOf gives you variable type
 
