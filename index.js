@@ -61,3 +61,35 @@ console.log(undefined.again); -
 //console.log(console);
 //typeOf gives you variable type
 
+
+
+
+
+
+/**
+    	* With JS Objects,
+    	* we don't HAVE TO put quotation marks around our keys because no matter what JS will expect those to be STRINGS.
+    	* With JSON (which is not JS), we MUST always put those quotation marks around each and every key.
+    	*/
+      const myObj = {
+        myString: "String",
+        myNum: 23,
+        myBoo: true,
+        explanation: "We just make up our own STRING keys, and assign whatever value we want. All the while this is all wrapped up under 1 VARIABLE that REFERENCES this OBJECT LITERAL (literal just signifies that we made this OBJECT - it's not 'built in').",
+        mackey: "It's easy to make OBJECTS, mmmkay?"
+      };
+
+      /**
+        * This time, instead of using our usual DOT NOTATION,
+        * let's use an alternative syntax - BRACKET NOTATION.
+        *
+        * Here, we use '[]',
+        * but it's critical that we put quotation marks around the name of the key that we want to represent.
+        */
+      console.log(myObj["myString"]);
+
+      // Dot notation
+      console.log(myObj.myNum); *// 23*
+
+
+
