@@ -1,33 +1,39 @@
-// modulo (remainder)
-console.log(4 % 2);
-console.log(5 % 2);
-console.log(6 % 2);
-console.log(7 % 2);
+const age = 25;
 
-console.log(6 % 3);
-console.log(7 % 3);
-console.log(8 % 3);
-console.log(9 % 3);
+// If age is greater than or equal to 25...
+if (age >= 25) {
+  console.log("Renting a car is more affordable.")
+} else {
+  // else: age is less than 25
+  console.log("Renting a car is very expensive.")
+}
 
-const x = 3;
-let y;
-console.log(y);
+// chaining if statements: if - else if - ... - else
+// if age is greater than or equal to 25,
+if (age >= 25) {
+  console.log("Renting a car is more affordable.")
+} else if (age >=18) {
+  // else: age is less than 25
+  // if age is greater than or equal to 18
+  console.log("Renting a car is very expensive.")
+} else {
+  // else: age is less than 18
+  console.log("You cannot legally rent a car.")
+}
 
-/*
-REFRENCE The VALUE BOUND TO 'X'
-In this case that is the PRIMITIVE DATA Typ
-*
-JS will make a copy of the PRIMITIVE,
-and ASSIGN that copy (3) to 'y'
+const x = 2;
 
-this is because PRIMITIVES CANNOT ' share values or memory refrences.'
-They must keep theri own COPY.
-*/
-y = x;
-
-//PRIMITIVES are COMPARED by VALUE (not refrence)
-console.log(y == x);
-const r = 3;
-const s = "3";
-false;
-//in order to prevent unpredictability steaming from JS implicit conversions, we use '==='
+// if (some comparison operator in parentheses is true)...
+if (x === 3) {
+		console.log("Since, the if condition above is true, you're seeing this on the screen.");
+} else {
+	console.log("Nope, you can't see me!");
+}
+//OPERATORS AND IF
+console.log("this will always run (in no errors)");
+ if ("x >21") {
+   console.log("Can buy alcohol.");
+ } else if ("x <21"){
+   console.log("Cannot buy alcohol.");
+ else if (x > 25 "Can can buy alcohol");
+ }
