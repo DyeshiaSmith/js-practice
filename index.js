@@ -1,10 +1,16 @@
-const store = {
-  store: "walmart"
-};
+let myCar = "Mazda";
 
-const store2 = {
-  store: "target"
-};
+/**
+ * Let's get 'you' the 'same' car as me.
+ * Since we are working with PRIMITIVES,
+ * this means that 'your car' will be a separate 'copy' of mine.
+ */
+let yourCar = myCar; // 'you' have your own 'Mazda.'
 
-console.log(store === store2);
-console.log(store === )
+// I am replacing my car.
+myCar = "Ford";
+
+console.log(myCar); // 'Ford'
+
+// Your car is the same
+console.log(yourCar); // 'Mazda'
