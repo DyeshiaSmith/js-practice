@@ -16,8 +16,3 @@ for (let currentNum = 1; currentNum <= 10; currentNum += 1) {
 
 console.log(currentTotal);
 // TODO: Update code to count by 2s and add the numbers from 1 to 100.
-
-// TODO: Use a 'while' loop to log the numbers from 1 to a 100.
-// However, if the number is divisible by '3,' log 'Fizz!'. If it' divisible by '5,' log 'Buzz!'.
-// If it's d(ivisible by both 3 AND 5, 'log' 'Fizz!Buzz!'. hint log===0, use mod operator [if)]
-console.log();
