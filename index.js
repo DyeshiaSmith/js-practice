@@ -1,36 +1,11 @@
-const myArr = [1, 2, 3, 4];
+//write a fxn to take a word and capitalize.absolute
+//const makecap = wordLowCase =>
 
-//Array DESTRUCTURING ASSIGNMENT (x will be 1 y will be 2 etc)
-const [x, y] = myArr;
+//template literal | bracket notation [0] | to upper case() | slice...
 
-console.log(x, y, myArr);
+const test = "hello, world, This Claim Academy JS";
 
-const covid = [1, 3, 5, 9];
+console.log(test.split(" "));
 
-const [per1, per2, per3] = myArr;
-
-console.log(per1, per2, per3);
-
-// OBJECT DESTRUCTURING
-const me = {
-  name: "Manav",
-  age: 23,
-  car: "Ford"
-};
-
-const { name, age } = me;
-console.log(name, age);
-
-console.log(me.name);
-console.log(me["name"]);
-
-const car = {
-  make: "dodge",
-  year: 2013,
-  model: "avenger"
-};
-const { make, year } = car;
-console.log(make, year);
-
-console.log(car.make);
-console.log(car["make"]);
+const test2 = ["hello", "world", "3", 3];
+console.log(test2.join("777"));
